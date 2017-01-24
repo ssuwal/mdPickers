@@ -141,8 +141,8 @@ module.provider("$mdpDatePicker", function() {
                                 '<div layout="column" layout-align="start center">' +
                                     '<md-toolbar layout-align="start start" flex class="mdp-datepicker-date-wrapper md-hue-1 md-primary" layout="column">' +
                                         '<md-icon ng-click="datepicker.incrementYear()" md-svg-icon="mdp-arrow-drop-up"></md-icon>'+
-                                        '<md-icon ng-click="datepicker.decrementYear()" md-svg-icon="mdp-arrow-drop-down"></md-icon>'+
                                         '<span class="mdp-datepicker-year" ng-click="datepicker.showYear()" ng-class="{ \'active\': datepicker.selectingYear }">{{ datepicker.date.format(\'YYYY\') }}</span>' +
+                                        '<md-icon ng-click="datepicker.decrementYear()" md-svg-icon="mdp-arrow-drop-down"></md-icon>'+
                                         '<span class="mdp-datepicker-date" ng-click="datepicker.showCalendar()" ng-class="{ \'active\': !datepicker.selectingYear }">{{ datepicker.date.format(datepicker.displayFormat) }}</span> ' +
                                     '</md-toolbar>' +
                                 '</div>' +
